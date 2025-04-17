@@ -6,7 +6,7 @@ import userAuth from '../middleware/userAuth.js';
 const authRouter = express.Router()
 
 authRouter.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://mern-auth-app-frontend-kbwq.onrender.com',
   credentials: true,
   methods: ['GET', 'POST']
 }))
