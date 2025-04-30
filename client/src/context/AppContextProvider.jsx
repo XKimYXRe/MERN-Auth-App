@@ -5,7 +5,7 @@ import axios from "axios";
 
 export const AppContextProvider = ({ children }) => {
 
-    axios.defaults.withCredentials = true
+  axios.defaults.withCredentials = true
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
